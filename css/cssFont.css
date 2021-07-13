@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'valentimeregular';
+    src: url('../fontWoff/valentime-webfont.woff2') format('woff2'),
+         url('../fontWoff/valentime-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.digital,.space{
+    font-family: valentimeregular;
+}

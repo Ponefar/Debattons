@@ -1,0 +1,1 @@
+<?php require '../liste_article/recherche.php' ?>

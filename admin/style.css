@@ -1,0 +1,51 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    background-color: brown;
+    display: flex;
+    padding-bottom: 10em;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+table{
+    color: black;
+    border-collapse: collapse; 
+    background-color: white;
+}
+
+tr{
+    border: 2px solid black;
+}
+
+.del {
+    background-color: green;
+}
+
+.add {
+    background-color: red;
+}
+
+#resultInput{
+    width: 100%;
+}
+
+#inputAutoCompletion{
+    width: 500px;
+}
+
+.autoTable{
+    background-color: wheat;
+}
+
+.croixSvg{
+    width: 48px;
+}
+
+.flexx {
+    display: flex;
+}

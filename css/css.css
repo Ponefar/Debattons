@@ -1,0 +1,1745 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.backGroundAdminArticlesById,
+.backGroundArticlesById,
+.backgroundMoncompte,
+.inscription,.connexion, 
+.contact, 
+.publier, 
+.liste_article, 
+.message_apres_rediger_article{
+    background: url('../img/fond_inscription.jpg') fixed no-repeat;
+    background-size: 100vw;
+    padding: 5em ;
+}
+
+.liste_articleIndex{
+    background: url('../img/fond_inscription.jpg') fixed no-repeat;
+    padding: 5em 2em ;
+    background-size: 100vw;
+    background-color: black;
+}
+
+.listeAdminArticlesById,
+.listeArticlesById{
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: wheat;
+}
+
+.titrePageAdminArticleById,
+.titrePageArticleById,
+.titreMonCompte{
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.adminArticleDehorsBoucle,
+.articleDehorsBoucle,
+.categrieDehorsBoucle{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.alladminArticleAffichageDansBoucle,
+.allCategorieAffichageDansBoucle{
+    background-color: white;
+    position: relative;
+    margin: 25px 0px;
+    border: 2px solid red;
+}
+
+.alladminArticleAffichageDansRecherche{
+    background-color: white;
+    position: relative;
+}
+
+.alladminArticleAffichageDansBoucle:hover, 
+.articleAffichageDansBoucle:hover,
+.dansBoucleMonCompte:hover,
+.moncompteNotifContainer:hover,
+.allCategorieAffichageDansBoucle:hover,
+.rechercheinputarticle:hover,
+.alladminArticleAffichageDansRecherche:hover{
+    opacity: 0.8;
+    background-color: rgb(219, 219, 219);
+}
+
+
+.remonter{
+    position: fixed;
+    bottom: 2em;
+    right: 15px;
+    z-index: 9;
+    margin-right: -66px;
+    transition: 200ms linear;
+    width: 50px;
+}
+
+
+.center{
+    text-align: center;
+    margin-bottom: 15px!important;
+    font-size: 25px!important;
+}
+
+.remonte:hover{
+    background-color: transparent;
+    z-index: 99;
+}
+
+.adminArticleAffichageDansBoucle{
+    padding: 10px 10%;
+}
+
+.adminArticleAffichageDansRecherche{
+    padding: 20px 10%;
+}
+
+.articleAffichageDansBoucle{
+    background-color: white;
+    position: relative;
+    padding: 20px 10%;
+}
+
+.titreDansBoucle{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0px 0px 15px 0px;
+}
+
+.titreDansBoucleNotif{
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0px 0px 15px 0px;
+}
+
+.NombreVuEtIcon{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 19px;
+    display: flex;
+    font-weight: 700;
+    top: 25px;
+    right: 35px;
+}
+
+.ArticleVu{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 19px;
+    display: flex;
+    font-weight: 700;
+    top: 25px;
+    Left: 35px;
+    color: rgb(27, 111, 180);
+}
+
+.testttt{
+    display: table;
+    height: 50px;
+}
+
+.testttt1{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Supprimer{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 0px auto;
+    font-family: tahoma;
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.SupprimerAutocmpletion{
+    height: auto;
+    padding: 5px 0;
+}
+
+.Supprimer:hover{
+    background-color: rgb(173, 58, 58);
+    border:2px solid rgb(173, 58, 58);
+    cursor: pointer;
+}
+
+.monCompteContainer{
+    text-align: center;
+    background-color: wheat;
+    margin: 0 auto;
+    width: 65%;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.dansBoucleMonCompte{
+    background-color: white;
+    position: relative;
+    padding: 25px 10%;
+}
+
+.moncompteNotifDansBoucle{
+    position: relative;
+    padding: 25px 10%;
+
+}
+
+#nopaddingForm{
+    height: 250px;
+}
+
+.flexNoCss{
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    justify-content: center;
+}
+
+.noButtonCss:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.noButtonCss{
+    background-color: inherit;
+    border: none;
+}
+
+.moncompteNotifContainer{
+    background-color: white;
+    position: relative;
+    margin: 25px 0px;
+    border: 1px solid gray;
+}
+
+input[name="EnvoyerCommentaire"], input[name="btnlu"], input[name="btnSubmitDesabled"]{
+    width: 100px;
+    background-color: rgb(40, 72, 109);
+    color: white;
+    border: 3px solid rgb(40, 72, 109);
+    padding: 7px 14px 7px 14px; 
+    height: 43px;  
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+input[name="btnSubmitDesabled"]{
+    background-color: gray;
+    color: white;
+    border: 3px solid gray;
+}
+
+input[name="btnlu"]{
+    width: 130px;
+    height: auto;  
+    padding: 7px 0px; 
+    margin: 0px  ;
+    
+}
+
+input[type="submit"]:disabled{
+    background-color: rgb(204,204,204);
+    cursor: not-allowed!important;
+    color: rgb(154,154,154);
+    border:3px solid rgb(204,204,204);
+}
+
+
+
+input[type="submit"]:disabled:hover{
+    background-color: rgb(204,204,204);
+    cursor: not-allowed;
+    color: rgb(154,154,154);
+    border:3px solid rgb(204,204,204);
+}
+
+button:disabled{
+    background-color: inherit;
+    cursor: not-allowed;
+    color: rgb(154,154,154);
+    border:3px solid inherit;
+}
+
+button:disabled:hover{
+    background-color: rgb(204,204,204);
+    cursor: not-allowed;
+    color: rgb(154,154,154);
+    border:3px solid rgb(204,204,204);
+}
+
+.top{ /* Premier container de notification => "Nouvelle notification" */
+    padding: 5em 5em 2em 5em;
+    font-weight: bold;
+}
+
+.bottom{ /* Deuxième container de notification => "Ancienne notification " */
+    padding: 2em 5em 5em 5em;
+}
+
+#resultat{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.rechercheinputarticle{
+    padding: 20px;
+    position: relative;
+}
+
+#resultHeight{
+    height: 60px;
+}
+
+.date_time_auto_completion{
+    color: rgb(0, 81, 255);
+    font-style: italic;
+    font-size: 13px;
+}
+
+.EspaceCommUsers{
+    color: rgb(0, 81, 255);
+    font-size: 19px;
+}
+
+.EspaceCommDate{
+    color: gray;
+    font-size: 17px;
+}
+
+.EspaceCommTexte{
+    color: black;
+    font-size: 20px;
+    font-family: Segoe UI;
+    overflow: hidden;
+    text-overflow: unset;
+    text-align: left;
+}
+
+.EspaceCommTexteVerif{
+    color: black;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: unset;
+    text-align: left;
+}
+
+.form_inscription, .form_connexion{
+    margin: 100px;
+    text-align: center;
+    background-color: wheat;
+    margin: 0 auto;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.form_connexion{
+    padding: 17px 25px;
+}
+
+.form_inscription{
+    padding: 25px;
+} 
+
+
+
+.form_inscription input, .form_connexion input, .form_contact input, .form_contact textarea, .form_verif_redaction input{
+    width: 420px;
+    height: 30px;
+    margin: 5px;
+    padding: 12px 14px 12px 14px;   
+    font-size: 17px;
+    font-weight: 600;
+    /* border : 4px solid rgb(75, 193, 240); */
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+
+}
+
+input[name="btnConnexion"],
+input[name="btnInscription"]{
+    width: 100px;
+    padding: 5px 0;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: rgb(218, 94, 94);
+    color: white;
+    border: 2px solid rgb(218, 94, 94);
+    font-size: 15px;
+}
+
+input[name="btnConnexion"]:hover,
+input[name="btnInscription"]:hover{
+opacity: 0.7;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.message_apres_rediger_article{
+    font-size: 25px;
+}
+
+.Ajouter{
+    background-color: green;
+}
+/* 
+.liArticleMonCompte, .liCommMonCompte, .liLikesMonCompte{
+    padding: 20px 20px;
+    margin: 3px -20px;
+} */
+
+.liArticleMonCompte:hover, .liCommMonCompte:hover, .liLikesMonCompte:hover{
+    opacity: 0.7;
+    background-color: rgb(192, 192, 192);
+}
+
+.green_rediger{
+    padding: 20px 0px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.moncompte{
+    position: absolute;
+    top: 8px;
+    font-size: 15px;
+    color: green;
+    right: 10px;
+}
+
+
+.red_rediger{
+    padding: 20px 0px;
+
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.imagecent{
+    margin-bottom: -4px;
+}
+
+.publier{
+    color: white;
+    padding-top: 160px;
+    height: 300px;
+    text-align: center;
+}
+
+
+.publication{
+    font-size: 40px;
+    color: white;
+    font-weight: 800!important;
+    letter-spacing: 1px;
+}
+
+input[name="submit_redaction"]:hover{
+    cursor: pointer;
+    background-color: rgb(17, 10, 43);
+}
+
+
+
+
+#colonne_like, #colonne_comm{
+    margin: 100px;
+    padding: 5px 5px;
+    text-align: center;
+    background-color: rgb(34, 27, 131);
+    margin: 0 auto;
+    border: 2px SOLID white;    
+    width: 46%;
+    display: block;
+    color: white;
+
+}
+
+.comm_like_connexion{
+    margin-bottom: -10px;
+    padding-left: 0px;
+}
+
+
+.form_contact, .form_verif_redaction{
+    margin: 100px;
+    padding: 25px;
+    text-align: center;
+    background-color: wheat;
+    /* border : 10px solid rgb(75, 193, 240); */
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 5px;
+
+}
+
+hr{
+    width: calc(100% - 2px);
+    margin: 0px auto;
+    color: black;
+}
+
+.index_php{
+    background-color: white;
+    width: 76%;
+    text-align: center;
+    padding: 25px 15px;
+    position: relative;
+    border-radius: 5px 0 0 5px;
+}
+
+.flex_article_widgets{
+    display: flex;
+    justify-content: space-around;
+}
+
+.widget_article_index{
+    width: 18%;
+    background-color: white;
+    padding: 25px 15px;
+    border-radius:0 5px 5px 0;
+}
+
+.hr_widget{
+    margin-bottom: 20px;
+    width: 100%;
+    color: gray;
+}
+
+svg{
+    width: 40px;
+}
+
+.image_article{
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.beforeCategorie{
+    background-color: white;
+}
+.titre_page_art, .titre_page_index, .titre_page{
+    color: black;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'SEGOE UI' ;
+    text-align: center;
+    background-color: wheat;
+    width: 50%;
+    padding-bottom: 20px;
+    margin: 0 auto;   
+}
+
+.titre_page{
+    width: auto;
+}
+
+.topPaddingTitle{
+    padding-top: 20px;
+}
+
+.titre_page_index{
+    background-color: white;
+    text-align: left;
+}
+
+
+.fas.fa-eye{
+    margin: 0 4px;
+}
+
+.sous_menu{
+    display: none;
+    padding: 0px;
+}
+
+.sous_menu li{
+    padding: 15px 25px;
+    border-bottom: 2px solid black;
+    width: 250px;
+    color: white;
+}
+
+.sous_menu li:hover{
+    background-color: #c7c6c6;
+    color: black;
+}
+
+li:hover .sous_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 93.5px;
+    background-color: gray;
+    z-index: 99999;
+}
+
+input[name="submit_modif_article"]{
+    margin-top: 30px;
+    width: 35%;
+    background-color: inherit;
+    color: black;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 7px 14px 7px 14px;
+    height: 43px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+td{
+    font-size: 20px;
+}
+
+input[name="submit_modif_article"]:hover{
+    background-color: green;
+    border: 3px solid green;
+    color: white;
+    cursor: pointer;
+
+}
+
+.index_php_admin {
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    padding: 25px 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+.carre_ban{
+    position: relative;
+    width: 150px;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid red;
+    padding:4px 10px;
+    border-radius: 5px;
+    color: red;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.exclamation{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: red;
+    border-radius:50%;
+    width:25px;
+    padding: 8px;
+    height:25px;
+    font-size: 25px;
+    color: white;
+}
+
+.ip_ban{
+    padding: 70px;
+}
+
+.all_ban_ip{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.titre_ip_ban{
+    padding: 2em;
+    color: red;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+}
+
+.text_ip_ban{
+    margin: 2em;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+.lien_ban_contact{
+    color: rgb(25, 0, 255);
+}
+
+.lien_ban_contact:hover{
+    color: rgb(0, 81, 255);
+
+}
+
+
+.categorieAllDiv{
+    background-color: wheat;
+    width: 70%;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+.imgArticle{
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 850px;
+    max-height: 450px;
+}
+/* #rien,#erreur{
+    height: 1.5em;²
+} */
+
+.hr_sous_comm
+{
+    margin: 22px -15px;
+    border: 2px solid rgb(226, 226, 226);
+    width: calc(100% + 26px) ;
+}
+
+.hr_categorie
+{
+    margin: 0px auto;
+    border: 2px solid rgb(226, 226, 226);
+    width: calc(100% - 4px);
+}
+
+.titre_page_index{
+    padding: 0px;
+    width: 80%;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.titre_widget{
+    
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Verdana ;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;   
+    padding-bottom: 2em;
+
+}
+
+.titre_article_widget{
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.titre_article_widget:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.select{
+    width: 736px;
+    margin-top:5px; 
+    height: 62px; 
+    border-radius:5px;
+    font-size: 18px;
+    text-align : center;
+}
+
+.publier_article_btn{
+    font-family: cursive;
+    display: flex;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: rgb(230, 228, 228);
+    padding: 6px 28px;
+    color: black;
+    border-radius: 3px ;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.publier_article_btn:hover{
+    cursor: pointer;
+    background-color: rgb(197, 197, 197);
+}
+
+.titre_verif_redaction,
+.titre_verif_article{
+    color: green;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Verdana ;
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: wheat;
+    
+}
+
+
+
+.remonter_un_peu_dislike, .remonter_un_peu_like{
+    position: relative;
+    top: -5px;
+    color: gray;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.accepter_conditions_generales, .connecter_all_fonctionnalites{
+    color: black;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 35px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+
+.imageFondFooter{
+    filter: contrast(0.6);
+}
+
+.imageopacity8{
+    filter: contrast(0.4);
+}
+
+.date_time_auto_completion{
+    color: rgb(0, 81, 255);
+    font-style: italic;
+    font-size: 13px;
+}
+
+.EspaceCommUsers{
+    color: rgb(0, 81, 255);
+    font-size: 19px;
+}
+
+.EspaceCommDate{
+    color: gray;
+    font-size: 17px;
+}
+
+.EspaceCommTexte{
+    color: black;
+    font-size: 21px;
+    font-family: Segoe UI;
+    overflow: hidden;
+    text-overflow: unset;
+    text-align: left;
+}
+
+.nocomm{
+    text-align: center;
+}
+
+.pagination{
+    text-align: center;
+    width: 200px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    color: black;
+    border-radius: 5px;
+    
+}
+
+textarea[name="TexteCommentaire"]{
+    width: 350px;
+    height: 100px;
+    margin: 5px;
+    padding: 12px 14px 12px 14px;   
+    font-size: 17px;
+    font-weight: 600;
+    /* border : 4px solid rgb(75, 193, 240); */
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;}
+
+.implementation{
+    text-align: center;
+}
+
+.implementation input
+{
+    width: 570px;
+    height: 30px;
+    padding: 5px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    border : 6px solid gray;
+    border-radius: 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+
+
+}
+
+.form_verif_redaction textarea{
+ 
+    margin: 5px;
+    padding: 12px 14px 12px 14px;
+    font-size: 17px;
+    font-weight: 600;
+    /* border : 4px solid rgb(75, 193, 240); */
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.form_contact input{
+    width:327.3px ;
+}
+
+.form_contact textarea{
+    width: 700.7px;
+    height: 280px;
+    font-size: 17px;
+}
+
+
+
+
+input[name="submit"], input[name="Envoyer"],input[name="Newsubmit"]{
+    width: 56%;
+    background-color: inherit;
+    color: black;
+    border: 3px solid black;
+    padding: 7px 14px 7px 14px; 
+    height: 43px;   
+}
+/* 
+input[name="EnvoyerCommentaire"], input[name="btnlu"], input[name="btnSubmitDesabled"]{
+    width: 100px;
+    background-color: rgb(40, 72, 109);
+    color: white;
+    border: 3px solid rgb(40, 72, 109);
+    padding: 7px 14px 7px 14px; 
+    height: 43px;  
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+input[name="btnSubmitDesabled"]{
+    background-color: gray;
+    color: white;
+    border: 3px solid gray;
+}
+
+input[name="btnlu"]{
+    width: 130px;
+    height: auto;  
+    padding: 7px 0px; 
+    margin: 6px;
+    
+} */
+
+
+input[name="EnvoyerCommentaire"]:hover, input[name="btnlu"]:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+
+
+input[name="submit_redaction"]{
+    width: 35%;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background-color: inherit;
+    color: white;
+    border: 3px solid white;
+    padding: 7px 14px 7px 14px; 
+    height: 43px;   
+}
+
+input[name="submit"]:hover, input[name="Envoyer"]:hover, input[name="Newsubmit"]:hover{
+    cursor: pointer;
+    background-color: rgb(245, 209, 179);
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(34, 27, 131);
+    /* border : 10px solid rgb(75, 193, 240); */
+    margin: 0 auto;
+    width: 678.25px;
+    border-radius: 5px;
+    margin-top: 40px;
+
+}
+
+
+#likerButton,#CommButton{
+    width: 50%;
+    padding: 18px;
+    color: white;
+
+}
+
+#CommButton {
+    background-color: orangered;
+    border: 3px solid orangered;
+}
+
+#likerButton{
+    background-color: #dddddd;
+    border: 3px solid #dddddd;
+}
+
+  
+.flexForm{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ArticleConnexion{
+    padding: 0px;
+    margin: 0 auto;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.Li_comm{
+    width: 60%;
+    padding: 0px 10% ;
+    margin: 0 auto;
+}
+
+.LiCategorie{
+    padding: 10px 10%;
+}
+
+.LiArticleSupp{
+  /*  margin:1em 0; */
+  padding: 5px 10%;
+}
+
+.g-recaptcha {
+    display: inline-block;
+}
+
+em{
+    font-size: 24px;
+}
+
+#comm{
+    padding: 20px;
+    margin: 1.5em -15px;
+    background-color: rgb(218, 94, 94);
+    color: white;
+    font-size: 26px;
+    font-family: Segoe UI;    
+}
+
+.posRelativeDiv{
+    position: relative;
+    width: 130.8px;
+    height: 26.8px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 0px 8px;
+    margin: 0 auto;
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.SupprimerDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.posRelativeDiv:hover{
+    background-color: rgb(173, 58, 58);
+    border:2px solid rgb(173, 58, 58);
+}
+
+
+
+
+
+.Ajouter{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(0, 48, 0);
+    color: white;
+    border: 2px solid rgb(0, 48, 0);
+    border-radius: 5px;
+    margin: 0 auto;
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.Ajouter:hover{
+    background-color: rgb(64, 119, 64);
+    border: 2px solid rgb(64, 119, 64);
+    cursor: pointer;
+
+}
+
+a#cRetour{
+    border-radius:3px;
+    padding:10px;
+    font-size:25px;
+    text-align:center;
+    color:#fff;
+    background-color: gray;
+    position:fixed;
+    right:20px;
+    opacity:1;
+    z-index:99999;
+    transition:all ease-in 0.2s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    text-decoration: none;
+    }
+    a#cRetour:before{ content: "\25b2"; }
+    a#cRetour:hover{
+    background:rgb(218, 94, 94);
+    opacity: 0.5;
+    transition:all ease-in 0.2s;
+    }
+    a#cRetour.cInvisible{
+    bottom:-35px;
+    opacity:0;
+    transition:all ease-in 0.5s;
+    }
+    
+    a#cRetour.cVisible{
+    bottom:20px;
+    opacity:1;
+    }
+
+
+
+  /*  a{
+        color: inherit!important; 
+    }
+    a:hover{
+        /*
+        text-decoration: none!important;
+        cursor: pointer;
+        
+    }*/
+  
+
+/* Footer */
+
+.contenu{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.alignLeft{
+    text-align: left;
+}
+
+.fb-page{
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 100vw;
+}
+
+.sousHeader{
+    position: relative;
+    margin-bottom: -5px;
+}
+.TexteDansImage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 80px;
+    font-family: 'fibre_vintagefibre_vintage';
+    color: black;
+    transform: translate(-50%, -50%);
+    
+  /*  astrianyregular /fibre_vintagefibre_vintage */
+
+}
+
+
+/* PAGE 1 */
+
+.FooterCopyright{
+    color: white;
+    text-align: center;
+    font-family: 'fibre_vintagefibre_vintage';
+    padding-top: 20px;
+
+}
+
+table,td{
+   /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+td{
+    text-align: left;
+    padding: 5px;
+}
+
+.relativeImagefooter{
+    position: relative;
+}
+
+.AbsoluteImagefooter{
+
+    position: absolute;
+    top: 50%;
+    width: 70%;
+    left: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'fibre_vintagefibre_vintage';
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.center{
+    text-align: center;
+}
+
+
+ .MailIconCenter{
+     color: white;
+ 
+     align-items: center;
+         display: flex;
+         justify-content: center;
+ }
+ 
+ body,html{
+    margin: 0;
+    padding: 0;
+}
+.space{
+    color: red;
+}
+
+
+.digital{
+    color: rgb(15, 46, 133);
+}
+.UlClasse{
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+
+
+.bouttonAlignCenter{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+}
+
+.LiHeader{
+    padding: 35px 25px;
+    color: #07112C;
+    font-size: 17px;
+    list-style-type:none;
+    font-weight: 400;
+    font-family: cursive;
+
+}
+li{
+    position: relative;
+    list-style-type:none;
+    
+}
+
+.AllArticles{
+    width: 1100px;
+    padding: 0px 0px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: wheat;
+    padding-bottom: 1px;    
+}
+
+.relative{
+    position: relative;
+    width: 462px;
+    margin: 0 auto;
+}
+
+.imageProfil{
+    width: 200px;
+}
+
+.input_text-password{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-45%);
+    right: 20px;
+}
+
+.divCommentaire{
+    position: relative;
+}
+
+.imgUserComm{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.imgUserArticle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+#img_eyes, 
+#img_eyes_verif{
+    width: 30px;
+}
+
+.style_date_time_publi{
+    color: rgb(0, 81, 255);
+    font-size: 18px;
+    font-style: italic;
+}
+
+.style_date_time_delete{
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.font_style_None{
+    font-style: normal;
+}
+
+.categorie_color{
+    color: rgb(255, 75, 75);
+    font-size: 18px;
+}
+
+.borderAll,
+.VerifborderAll,
+.VerifborderAllAdmin{
+
+    color: black;
+    background-color: white;
+}
+
+.borderAll{
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.VerifborderAll,
+.VerifborderAllAdmin{
+    border: 2px solid green;
+    margin: 0 10px;
+    margin-bottom: 2em;
+    position: relative;
+
+}
+
+
+.h2{
+    display: block;
+    padding-bottom: 18px;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+.ASouligne{
+    font-size: 20px;
+    color: rgb(26, 24, 116);
+    margin-right: 2px;
+}
+
+.ASouligne:hover{
+    font-size: 20px;
+    opacity: 0.6;
+}
+.ASouligneDeux{
+    font-size: 20px;
+    margin-right: 2px;
+    color: rgb(255, 75, 75);
+
+}
+
+h3{
+    display: inline;
+}
+
+.borderAll:hover,.VerifborderAll:hover, .LiCategorie:hover,.LiArticle:hover{
+    background-color: rgb(211, 211, 211);
+    }
+
+.LiHeader:hover{
+   background-color: #c7c6c6;
+   cursor: pointer;
+   transition-duration: 0.5s;    
+   transition-timing-function: cubic-bezier(0.35, 0, 0.25, 1);
+}
+
+
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: inherit;
+}
+
+#logo{
+
+    padding-right: 1vw;
+    padding-left: 1vw;
+    width: 95px;
+    height: 120px;
+}
+
+#burgerMenu{
+display: none;
+}
+
+#noneTel{
+    display: flex;
+}
+
+#adrien{
+    padding-left: 30px; 
+    font-size: 70px;    
+    padding-right: 20px;
+    font-family: billy_signatureregular ;
+}
+
+
+#like{
+    margin-right: 4px;
+    color: rgb(160, 160, 160);
+} 
+
+#dislike{
+    margin-left: 4px;
+
+} 
+#dislike:hover,#like:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#seconnection{
+    color: red;
+    margin-top: 30px;
+}
+
+.SuppArticle{
+    background-color: inherit;
+    border: none;
+}
+
+.pageContact{
+    background-color: rgb(241, 150, 150);
+    padding-bottom: 4em;
+    padding-top: 3em;
+    
+}
+
+#containerContactFlex{
+     display: flex;
+     width: 100%;
+     justify-content: center;
+}
+
+.titreNotif{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.MsgAucuneNotif{
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: rgb(40, 72, 109);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ahref{
+    color: blue;
+    padding: 7px 0px;
+}
+ 
+.ahref:hover{
+    opacity: 0.7;
+}
+
+label{
+     padding:7px 15px 7px 1px;
+}
+
+.luetaccept{
+    padding: 7px 0;
+}
+
+legend, label,.ahref, .legend{
+    font-size: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+
+.fas{
+    margin-bottom: 2px;
+}
+ 
+.valider,
+.redirection{
+    color: green;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 8px;
+}
+
+.validerNoMargin{
+    color: red;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0px;
+    text-align: center;
+}
+
+.redirection{
+    font-size: 18px;
+
+}
+.buttonHaut{
+    z-index: 999;
+    position: relative;
+}
+
+.buttonHaut:hover{
+    opacity: 0.7;
+}
+
+.aucunpost{
+    font-size: 20px;
+}
+
+.mot_de_passe_oublie{
+    color: black;
+    text-align: center;
+    width: auto;
+    height: 30px;
+    margin: 0px auto;
+    padding: 12px 14px;
+    font-size: 17px;
+}
+
+.mot_de_passe_oublie_hover:hover{
+    color: rgb(172, 69, 0);
+}
+
+.mot_de_passe_oublie_hover{
+    text-decoration: underline;
+}
+
+.erreur, #erreur{
+    color: rgb(252, 104, 104);
+    font-weight: 600;
+    font-size: 22px;
+    margin: 8px;
+    text-align: center;
+}
+
+
+.success, #success{
+    color:green;
+    font-size: 22px;
+    margin: 8px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
+.InputObject{
+    width: 730px;
+}
+
+
+
+.MailIconCenter{
+    color: white;
+
+    align-items: center;
+        display: flex;
+        justify-content: center;
+}
+
+ 
+ 
+::placeholder {
+    color: gray;
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+
+ input[name="contact_email"],  input[name="acceptConditions"]{
+    width: 13px;
+}
+
+.lien_ban_contact{
+    padding: 10px;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+
+.lien_ban_contact:hover{
+    background-color: red;
+    color: white!important;
+    border: 3px solid red;
+
+}
+  
+
+@media all and (min-device-width : 200px) and (max-device-width : 480px){
+  
+img{
+    width: 35%;
+}
+
+
+.TexteDansImage,.AbsoluteImagefooter,.imagecent,.imageopacity8{
+    width: 100%;
+}
+
+
+    .sousHeader{
+        margin-bottom: -15px;
+    }
+
+    #burgerMenu{
+        display: inline-block;
+        position: absolute;
+        top: 70px;
+        right: 40px;
+        width: 100px;
+        cursor: pointer;
+        z-index: 9999;
+        transform: translate(0%, -50%);
+        border: 2px solid black;
+
+    }
+
+    #burgerMenu:hover{
+        opacity: 0.5;
+    }
+    #noneTel{
+        display: none;
+        padding-bottom: 4em;
+    }
+
+    .UlClasse{
+        position: relative;
+        height: auto;
+        z-index: 1;
+        width: 100%;
+        display: inline-block;
+        background-color: rgb(202, 202, 202);
+    }
+
+
+    img{
+        max-width: 100%;
+    }
+    
+    
+    .LiHeader{
+        padding: 24px 20px;
+        list-style-type:none;
+        font-size: 50px;
+        border-bottom: 5px solid black;
+    
+    }
+}
